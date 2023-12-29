@@ -89,7 +89,7 @@ label {
     width: 35%;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 720px) {
   form {
     width: 35%;
   }

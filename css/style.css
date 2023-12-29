@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/09f0deb483e588c4d1a0f28879c5e80d.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: multiply;
+}
+span {
+  color: blueviolet;
+}
+
+form {
+  margin-top: 130px;
+  margin-right: 60px;
+  float: right;
+  padding: 50px;
+  color: white;
+  width: 35%;
+  background: radial-gradient(
+    circle at 48.7% 44.3%,
+    rgb(30, 144, 231) 0%,
+    rgb(56, 113, 209) 22.9%,
+    rgb(38, 76, 140) 76.7%,
+    rgb(31, 63, 116) 100.2%
+  );
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(19.3px);
+  -webkit-backdrop-filter: blur(19.3px);
+  border: 3px solid rgba(204, 22, 159, 0.6);
+}
+.btn-primary {
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(230, 104, 230);
+}
+
+h4 {
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+.form-text {
+  color: white;
+  font-weight: 200;
+}
+.btn {
+  color: white;
+  background-color: rgb(230, 104, 230);
+  width: 100%;
+  font-weight: 600;
+}
+btn:hover {
+  color: rgb(230, 104, 230);
+  background-color: white;
+}
+label {
+  font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+  form {
+    width: 100%;
+    margin-right: 26px;
+  }
+}
